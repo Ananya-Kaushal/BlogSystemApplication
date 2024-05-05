@@ -1,0 +1,62 @@
+﻿@model BlogSystem.Models.ViewModels.HomeViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row align-items-center g-5 py-5">
+        <div class="col-12 col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">
+                Unleash Your Tech Insights
+            </h1>
+            <p class="lead">
+
+                Welcome to BlogSpot Tech, your go-to destination for all things tech. Dive deep into the
+                latest trends, insightful tutorials, product reviews, and industry news. Whether you're a
+                seasoned tech enthusiast or just getting started, BlogSpot Tech is your platform to share
+                knowledge, explore innovations, and connect with a community of like-minded tech lovers.
+            </p>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                 alt="Bloggie - Dev blogs"
+                 class="d-block mx-lg-auto img-fluid" width="350" />
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-6">
+            @if (Model != null && Model.BlogPosts.Any())
+            {
+                foreach (var blogPost in Model.BlogPosts)
+                {
+                    <div class="mb-5 bg-light box-shadow p-5">
+                        <img src="@blogPost.FeaturedImageUrl" alt="@blogPost.Title"
+                             class="mb-2 d-block img-fluid" />
+
+                        <h2 class="mb-4">@blogPost.Title</h2>
+                        <p class="mb-4">
+                            Author: @blogPost.BloggerName
+                            <br />
+                            Published Date: @blogPost.CreatedAt.ToShortDateString()
+                            <br />
+                            Last Edited: @blogPost.UpdatedAt.ToShortDateString()
+                        </p>
+
+                        <a class="btn btn-dark"
+                           asp-area=""
+                           asp-controller="Blog"
+                           asp-action="Index"
+                           asp-route-id="@blogPost.Id">Read More</a>
+                    </div>
+
+                }
+            }
+        </div>
+    </div>
+</div>
+
