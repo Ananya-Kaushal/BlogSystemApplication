@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\BlogSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{080A9E21-2B7B-4AE4-8820-7666096C0C86}|BlogSystem.csproj|c:\\users\\user\\source\\repos\\blogsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{080A9E21-2B7B-4AE4-8820-7666096C0C86}|BlogSystem.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{080A9E21-2B7B-4AE4-8820-7666096C0C86}|BlogSystem.csproj|c:\\users\\user\\source\\repos\\blogsystem\\views\\admin\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{080A9E21-2B7B-4AE4-8820-7666096C0C86}|BlogSystem.csproj|solutionrelative:views\\admin\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{080A9E21-2B7B-4AE4-8820-7666096C0C86}|BlogSystem.csproj|c:\\users\\user\\source\\repos\\blogsystem\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{080A9E21-2B7B-4AE4-8820-7666096C0C86}|BlogSystem.csproj|solutionrelative:views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{080A9E21-2B7B-4AE4-8820-7666096C0C86}|BlogSystem.csproj|c:\\users\\user\\source\\repos\\blogsystem\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{080A9E21-2B7B-4AE4-8820-7666096C0C86}|BlogSystem.csproj|solutionrelative:models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{080A9E21-2B7B-4AE4-8820-7666096C0C86}|BlogSystem.csproj|c:\\users\\user\\source\\repos\\blogsystem\\data\\admindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{080A9E21-2B7B-4AE4-8820-7666096C0C86}|BlogSystem.csproj|solutionrelative:data\\admindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{080A9E21-2B7B-4AE4-8820-7666096C0C86}|BlogSystem.csproj|c:\\users\\user\\source\\repos\\blogsystem\\models\\domain\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,14 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BlogSystem\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\BlogSystem\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T16:06:42.047Z",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BlogSystem\\Views\\Admin\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Register.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BlogSystem\\Views\\Admin\\Register.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T18:49:23.783Z",
               "EditorCaption": ""
             },
             {
@@ -57,7 +49,7 @@
               "RelativeDocumentMoniker": "Views\\Admin\\Login.cshtml",
               "ToolTip": "C:\\Users\\user\\source\\repos\\BlogSystem\\Views\\Admin\\Login.cshtml",
               "RelativeToolTip": "Views\\Admin\\Login.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAcwBQAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-05T16:03:19.587Z",
               "EditorCaption": ""
@@ -65,32 +57,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BlogSystem\\Models\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\BlogSystem\\Models\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "Models\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T16:01:52.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BlogSystem\\Data\\AdminDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AdminDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\BlogSystem\\Data\\AdminDbContext.cs",
-              "RelativeToolTip": "Data\\AdminDbContext.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABEAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T15:14:11.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Post.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BlogSystem\\Models\\Domain\\Post.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\Post.cs",
@@ -103,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BlogSystem\\Models\\Domain\\Comment.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\Comment.cs",
